@@ -1,4 +1,4 @@
-//: Velocimetro de un automóvil digital
+//: Velocimetro de un automóvil digital.
 
 import UIKit
 
