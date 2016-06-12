@@ -24,19 +24,19 @@ class Auto{
         switch velocidad.rawValue {
         case 0:
             resultado = (velocidad.rawValue, "Apagado")
-            velocidad = Velocidades.VelocidadBaja
+            velocidad = .VelocidadBaja
             break
         case 20:
             resultado = (velocidad.rawValue, "Velocidad Baja")
-            velocidad = Velocidades(velocidadInicial: Velocidades.VelocidadMedia)
+            velocidad = .VelocidadMedia
             break
         case 50:
             resultado = (velocidad.rawValue, "Velocidad Media")
-            velocidad = Velocidades(velocidadInicial: Velocidades.VelocidadAlta)
+            velocidad = .VelocidadAlta
             break
         case 120:
             resultado = (velocidad.rawValue, "Velocidad Alta")
-            velocidad = Velocidades(velocidadInicial: Velocidades.VelocidadMedia)
+            velocidad = .VelocidadMedia
             break
         default:
             break
